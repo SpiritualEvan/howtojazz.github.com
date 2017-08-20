@@ -15,12 +15,12 @@ baseurl: /
 domain_name: 'http://howtojazz.github.io'
 google_analytics: 'UA-73139389-1'
 disqus: false
-disqus_shortname: 'your-disqus-shortname'
+disqus_shortname: 
 
 # Details for the RSS feed generator
 url:            'http://howtojazz.github.io'
 author:         'Evan Seok'
-authorTwitter:  'howtojazz'
+authorTwitter:  
 
 permalink:       /:year/:title/
 
