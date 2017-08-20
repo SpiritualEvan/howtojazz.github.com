@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>iOS Programmer - Git submodules cheat sheet</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span> Home </a>
+    
+
+    
+        
+            <a href="/about">About </a>
+        
+    
+    <a class="cta" href="/feed.xml">Subscribe</a>
+</nav>
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Git submodules cheat sheet</h1>
+        <h2 class="headline">February 1, 2016</h2>
+    </header>
+    <section id="post-body">
+        <p>출처 : <a href="https://akrabat.com/git-submodules-cheat-sheet/">Git submodules cheat sheet</a></p>
+
+<p>프로젝트안에서 git submodule 를 다룰때 사용하는 명령어들</p>
+
+<p>Note: run these from the top level of your repo.</p>
+
+<p>Clone a repo with submodules:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ git clone git@bitbucket.org:akrabat/dotvim.git .vim
+$ git submodule update --init
+</code></pre>
+</div>
+
+<p>View status of all submodules:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ git submodule status
+</code></pre>
+</div>
+
+<p>Update submodules after switching branches:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ git submodule update
+</code></pre>
+</div>
+
+<p>Add a submodule:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ git submodule add git://github.com/tpope/vim-sensible.git bundle/vim-sensible
+</code></pre>
+</div>
+
+<p>Update all submodules to latest remote version</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ git submodule update --remote --merge
+$ git commit -m "Update submodules"
+</code></pre>
+</div>
+
+<p>Update a specific submodule to the latest version (explicit method):</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>cd bundle/vim-sensible
+git pull origin master
+cd ../..
+git add bundle/vim-sensible
+git commit -m "update vim-sensible"
+</code></pre>
+</div>
+
+<p>Remove a submodule:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>edit .gitmodules and remove this submodule's section
+$ git rm --cached bundle/vim-sensible
+$ rm -rf bundle/vim-sensible
+$ git commit -m "Remove vim-sensible"
+</code></pre>
+</div>
+
+<p>or</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git submodule deinit bundle/vim-sensible    
+git rm bundle/vim-sensible
+git commit -m "Remove vim-sensible"
+</code></pre>
+</div>
+
+
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/howtojazz">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Evan Seok</span>
+            <span>iOS Programmer</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http://howtojazz.github.io/2016/git_submodule_cheat_sheet/ - Git submodules cheat sheet by @howtojazz"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+
+<!-- Archive post list -->
+
+
+
+
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-73139389-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>iOS Programmer</title>
+    <description>iOS Programmer</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>MVC, MVP, MVVM, VIPER에대해 확실하게 잡기</title>
+        
+        
+          <description>&lt;p&gt;[MVC, MVP, MVVM, VIPER에대해 확실하게 잡기]&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 20 Aug 2017 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2017/applemvc_to_viper/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/applemvc_to_viper/</guid>
+      </item>
+    
+      <item>
+        <title>Metal</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;https://www.objc.io/issues/18-games/metal/&quot;&gt;Metal&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 31 Jul 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/introduction-metal/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/introduction-metal/</guid>
+      </item>
+    
+      <item>
+        <title>Animating Blur Radius</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;http://fichek.com/blog/animating-blur-radius/&quot;&gt;Animating Blur Radius&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 28 Jul 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/iOS10-supports-animating-blur-radius/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/iOS10-supports-animating-blur-radius/</guid>
+      </item>
+    
+      <item>
+        <title>A Complete Guide to A/B Testing for Your Apps</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;https://appdevelopmentcompanyblog.wordpress.com/2016/04/29/a-complete-guide-to-ab-testing-for-your-apps/&quot;&gt;A Complete Guide to A/B Testing for Your Apps&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 22 Jul 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/a-b-testing-for-your-app/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/a-b-testing-for-your-app/</guid>
+      </item>
+    
+      <item>
+        <title>iOS User Interfaces - Storyboards vs. NIBs vs. Custom Code</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code&quot;&gt;iOS User Interfaces: Storyboards vs. NIBs vs. Custom Code&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 21 Jul 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/storyboard-vs-nib-vs-code/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/storyboard-vs-nib-vs-code/</guid>
+      </item>
+    
+      <item>
+        <title>GCD 바로알기</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;http://warmz.tistory.com/entry/Obj-C-Grand-Central-Dispatch-GCD-Block-Coding-block-키워드&quot;&gt;GCD 바로알기&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 12 Jul 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/deep-dive-into-GCD/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/deep-dive-into-GCD/</guid>
+      </item>
+    
+      <item>
+        <title>다시 애플 워치가 기대되는 이유</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;http://hrmac.tistory.com/1703&quot;&gt;다시 애플 워치가 기대되는 이유&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 04 Jul 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/aspect-changes-of-apple-watch-%EB%B3%B5%EC%82%AC%EB%B3%B8/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/aspect-changes-of-apple-watch-%EB%B3%B5%EC%82%AC%EB%B3%B8/</guid>
+      </item>
+    
+      <item>
+        <title>AUTOLAYOUT 사용시 SIZETOFIT 적용방법</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;https://haandol.wordpress.com/2014/03/17/ios-autolayout-사용시-sizetofit-적용방법/&quot;&gt;AUTOLAYOUT 사용시 SIZETOFIT 적용방법&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 29 Jun 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/use-sizetofit-with-autolayout/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/use-sizetofit-with-autolayout/</guid>
+      </item>
+    
+      <item>
+        <title>왜 애자일 특히 스크럼이 끔찍한가</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;http://likejazz.com/post/136463711830/왜-애자일-특히-스크럼이-끔찍한가&quot;&gt;왜 애자일 특히 스크럼이 끔찍한가&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 25 Jun 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/why-is-agile-terrible/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/why-is-agile-terrible/</guid>
+      </item>
+    
+      <item>
+        <title>Custom UIViewController Transitions</title>
+        
+        
+          <description>&lt;p&gt;&lt;a href=&quot;http://www.teehanlax.com/blog/custom-uiviewcontroller-transitions/&quot;&gt;Custom UIViewController Transitions&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 19 Jun 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/custom-uiviewcontroller-transitions/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/custom-uiviewcontroller-transitions/</guid>
+      </item>
+    
+  </channel>
+</rss>

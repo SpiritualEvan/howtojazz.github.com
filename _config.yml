@@ -1,1 +1,46 @@
-theme: jekyll-theme-cayman
+name: iOS Programmer
+description: iOS Programmer
+meta_description: "iOS Programmer"
+
+aboutPage: true
+
+plugins: [jekyll-paginate, jekyll-gist]
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+paginate: 20
+baseurl: /
+domain_name: 'http://howtojazz.github.io'
+google_analytics: 'UA-73139389-1'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://howtojazz.github.io'
+author:         'Evan Seok'
+authorTwitter:  'howtojazz'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
+            
